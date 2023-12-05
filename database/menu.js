@@ -54,7 +54,7 @@ Array.from({ length: 5}).forEach(el => {
             }
 
         ])
-        counter+2;
+        counter+=2;
 
 })
 
