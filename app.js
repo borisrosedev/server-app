@@ -9,6 +9,7 @@ const path = require('node:path')
 
 app.set('port', process.env.PORT)
 app.use(express.json({ extended: 'true', limit: '10mb'}))
+app.use(cors())
 app.use(express.urlencoded({ extended: 'true', limit: '10mb'}))
 app.use(express.static(path.join(__dirname, 'public/assets/')))
 app.use('/api/carte', carteRoutes)
