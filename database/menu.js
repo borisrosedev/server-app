@@ -15,9 +15,10 @@ Array.from({ length: 5}).forEach(el => {
         menues.push([ 
 
             {
-                title: dishes[counter],
+                title: dishes[counter].name,
                 url: dishes[counter].url,
                 id: counter,
+                dish: dishes[counter],
                 options: ['plat seul', 'formule'],
                 quantity: [0,1,2],
                 description:[{
@@ -34,9 +35,10 @@ Array.from({ length: 5}).forEach(el => {
 
             }, 
             {
-                title: dishes[counter+1],
+                title: dishes[counter+1].name,
                 url: dishes[counter+1].url,
                 id: counter+1,
+                dish: dishes[counter+1],
                 options: ['plat seul', 'formule'],
                 quantity: [0,1,2],
                 description:[{
