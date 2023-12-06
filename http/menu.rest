@@ -1,4 +1,4 @@
-GET http://localhost:3300/api/carte
+
 
 ###
 GET http://localhost:3300/api/menu
