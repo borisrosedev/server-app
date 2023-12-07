@@ -1,4 +1,4 @@
 
 
 ###
-GET http://localhost:3300/api/menu/1
+GET http://localhost:3300/api/menu

@@ -3,7 +3,7 @@ const menues = require('../database/menu')
 const MenuController = {
 
     index(req, res){
-        res.status(200).json(carte)
+        res.status(200).json(menues)
     },
 
     findOneById(req, res){
