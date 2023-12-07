@@ -5,6 +5,7 @@ const authMiddleware = require('../middlewares/auth')
 
 router.get('/',  userCtrl.index)
 router.get('/:id', userCtrl.findOneById )
+router.post('/', userCtrl.login)
 //router.post('/', carteCtrl)
 
 module.exports = router

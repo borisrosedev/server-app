@@ -3,3 +3,12 @@ Authorization: Bearer borisrose
 
 ###
 GET http://localhost:3300/api/user/1
+
+###
+POST http://localhost:3300/api/user
+Content-Type: application/json
+
+{
+    "email":"borisrose@gmail.com",
+    "password":"10caroline10"
+}

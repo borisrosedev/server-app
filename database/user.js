@@ -1,6 +1,5 @@
 const bcrypt = require('bcrypt')
 
-
 const emailMaker = (first,last) => {
     return `${first}${last}@gmail.com`
 }
@@ -60,9 +59,9 @@ const users = [
     },
     {
         id: 6,
-        firstname: 'Fayza',
-        lastname: 'Lucas',
-        email: emailMaker('Fayza', 'Lucas'),
+        firstname: 'boris',
+        lastname: 'rose',
+        email: 'borisrose@gmail.com',
         password: '10caroline10',
         url: 'https://cdn.pixabay.com/photo/2018/03/01/14/57/portrait-3190849_1280.jpg'
     }
