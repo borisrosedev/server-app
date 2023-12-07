@@ -7,11 +7,11 @@ const MenuController = {
     },
 
     findOneById(req, res){
-        const { id } = req.body
+        const { id } = req.params
         if(!id){
             return res.status(401).json('Unauthorized')
         }
-        const menu = menues.find(m => m.id == id)
+        const menu = menues[id]
         if(!menu){
             return res.status(404).json(`No menu found with id ${id}`)
         }

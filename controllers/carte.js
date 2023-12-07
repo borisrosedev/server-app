@@ -6,13 +6,13 @@ const CarteController = {
     },
 
     findOneById(req, res){
-        const { id } = req.body
+        const { id } = req.params
 
         if(!id){
             return res.status(401).json('Unauthorized')
         }
 
-        const dish = carte.find(d => d.id == id)
+        const dish = carte.find(d => d.id == Number(id))
 
         if(!dish){
             return res.status(404).json(`No dish found with id ${id}`)
