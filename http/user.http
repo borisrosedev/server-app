@@ -1,2 +1,6 @@
 GET http://localhost:3300/api/user
 Authorization: Bearer borisrose
+
+###
+GET http://localhost:3300/api/user/1
+Authorization: Bearer Caroline-is-my-lover
