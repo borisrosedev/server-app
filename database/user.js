@@ -13,7 +13,7 @@ const users = [
         lastname: 'Dupont',
         email: emailMaker('Leo', 'Dupont'),
         password: bcrypt.hashSync('10caroline10', 10),
-        ulr: 'https://cdn.pixabay.com/photo/2015/08/05/04/02/people-875597_1280.jpg'
+        url: 'https://cdn.pixabay.com/photo/2015/08/05/04/02/people-875597_1280.jpg'
     },
 
     {
